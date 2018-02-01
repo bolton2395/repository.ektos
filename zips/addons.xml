@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.video.dwac" name="Disney's Wide Awake Club" version="1.0.2" provider-name="Gandelf">
+    <requires>
+        <import addon="xbmc.python" version="2.19.0" />
+        <import addon="script.module.nanscrapers" version="0.5.5" />
+        <import addon="script.module.python.koding.aio" version="0.9.6.6" />
+        <import addon="script.module.beautifulsoup" version="3.2.1" />
+        <import addon="script.module.requests" version="2.9.1" />
+        <import addon="script.module.addon.common" version="2.0.0" />
+        <import addon="script.module.xmltodict" version="0.9.0" />
+        <!--<import addon="script.module.web-pdb" version="1.0"/>-->
+        <import addon="script.module.urlresolver" version="1.2.0" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="[login|startup]" />
+    <extension point="xbmc.addon.metadata">
+      <summary lang="en">Disney'sWide Awake Club Movies and TV Shows</summary>
+      <description lang="en">A must for Disney lovers young and old. This addon is powered by JEN. This addon simply links to websites for content that are freely available on the internet . Use at your own risk!</description>
+      <disclaimer lang="en">This addon does not host any content.This addon does not form part of the Kodi Foundation. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.</disclaimer>
+      <platform>all</platform>
+        <website></website>
+        <video_guide></video_guide>
+    </extension>
+</addon>
+
+<addon id="plugin.video.ektos" name="EKTOS" version="1.0.2" provider-name="Gandelf powered by JEN">
+    <requires>
+        <import addon="xbmc.python" version="2.19.0" />
+        <import addon="script.module.nanscrapers" version="0.5.5" />
+        <import addon="script.module.python.koding.aio" version="0.9.6.6" />
+        <import addon="script.module.beautifulsoup" version="3.2.1" />
+        <import addon="script.module.requests" version="2.9.1" />
+        <import addon="script.module.addon.common" version="2.0.0" />
+        <import addon="script.module.xmltodict" version="0.9.0" />
+        <!--<import addon="script.module.web-pdb" version="1.0"/>-->
+        <import addon="script.module.urlresolver" version="1.2.0" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="[login|startup]" />
+    <extension point="xbmc.addon.metadata">
+      <summary lang="en">Ektos Movies and TV Shows</summary>
+      <description lang="en">This addon is powered by JEN. This addon simply links to websites for content that are freely available on the internet . Use at your own risk!</description>
+      <disclaimer lang="en">This addon does not host any content.This addon does not form part of the Kodi Foundation. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.</disclaimer>
+      <platform>all</platform>
+        <website></website>
+        <video_guide></video_guide>
+    </extension>
+</addon>
+
+<addon id="plugin.video.ektoslive" name="EKTOS LIVE" version="1.0.1" provider-name="Gandelf powered by JEN">
+    <requires>
+        <import addon="xbmc.python" version="2.19.0" />
+        <import addon="script.module.nanscrapers" version="0.5.5" />
+        <import addon="script.module.python.koding.aio" version="0.9.6.6" />
+        <import addon="script.module.beautifulsoup" version="3.2.1" />
+        <import addon="script.module.requests" version="2.9.1" />
+        <import addon="script.module.addon.common" version="2.0.0" />
+        <import addon="script.module.xmltodict" version="0.9.0" />
+        <!--<import addon="script.module.web-pdb" version="1.0"/>-->
+        <import addon="script.module.urlresolver" version="1.2.0" />
+        <import addon="script.module.ektoslive" version="1.0" />
+        <import addon="script.module.ektos.net" version="1.0" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="[login|startup]" />
+    <extension point="xbmc.addon.metadata">
+      <summary lang="en">Ektos Live TV</summary>
+      <description lang="en">This addon is powered by JEN. This addon simply links to websites for content that are freely available on the internet . Use at your own risk!</description>
+      <disclaimer lang="en">This addon does not host any content.This addon does not form part of the Kodi Foundation. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.</disclaimer>
+      <platform>all</platform>
+        <website></website>
+        <video_guide></video_guide>
+    </extension>
+</addon>
+
+<addon id="plugin.video.mituk" name="Made In The UK" version="0.0.1" provider-name="Gandelf">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="plugin.video.youtube"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <language>en</language>
+    <summary lang="en">UK Punk at its best...</summary>
+    <description lang="en">Bring you the best from the UK punk scene.</description>
+    <disclaimer lang="en">This addon does not host any content.This addon does not form part of the Kodi Foundation. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="repository.ektos" name="Ektos Repo" version="1.0.1" provider-name="Gandelf">
+	<extension point="xbmc.addon.repository" name="Ektos Repository">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/</datadir>
+		</dir>
+		<info compressed="false">https://raw.githubusercontent.com/GandelfsRepo/repository.ektos/master/zips/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/GandelfsRepo/repository.ektos/master/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/GandelfsRepo/repository.ektos/master/zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Ektos Repository</summary>
+		<description lang="en">Home of Ektos Addons</description>
+		<genre></genre>
+	</extension>
+</addon>
+
+<addon id="script.module.ektos.net" name="Ektos Live NetTV" version="1.0" provider-name="Gandelf/RACC">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.pyamf" />
+    <import addon="script.module.livestreamer" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.routing" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>all</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_gb">Ektos Live NetTV Dependency</summary>
+    <description lang="en_gb">Ektos Live NetTV Dependency</description>
+    <disclaimer lang="en_gb"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license></license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+  </extension>
+</addon>
+
+<addon id="script.module.ektoslive" name="Ektos Live" version="1.0" provider-name="Gandelf/RACC">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.livestreamer" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.routing" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>all</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_gb">Live Tv Dependency</summary>
+    <description lang="en_gb">Live Tv Dependency</description>
+    <disclaimer lang="en_gb"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license></license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+  </extension>
+</addon>
+</addons>
