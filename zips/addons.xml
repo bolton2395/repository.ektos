@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.video.dwac" name="Disney's Wide Awake Club" version="1.0.2" provider-name="Gandelf">
+<addon id="plugin.video.dwac" name="DISNEY'S WIDE AWAKE CLUB" version="1.0.3" provider-name="Gandelf">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.nanscrapers" version="0.5.5" />
@@ -80,7 +80,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.mituk" name="Made In The UK" version="0.0.1" provider-name="Gandelf">
+<addon id="plugin.video.mituk" name="Made In The UK" version="0.0.3" provider-name="Gandelf">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="plugin.video.youtube"/>
@@ -97,7 +97,7 @@
   </extension>
 </addon>
 
-<addon id="repository.ektos" name="Ektos Repo" version="1.0.1" provider-name="Gandelf">
+<addon id="repository.ektos" name="Ektos Repo" version="1.0.2" provider-name="Gandelf">
 	<extension point="xbmc.addon.repository" name="Ektos Repository">
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.ektos" name="Ektos Repo" version="1.0.1" provider-name="Gandelf">
+<addon id="repository.ektos" name="Ektos Repo" version="1.0.2" provider-name="Gandelf">
 	<extension point="xbmc.addon.repository" name="Ektos Repository">
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>

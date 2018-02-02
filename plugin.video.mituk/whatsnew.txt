@@ -1,11 +1,12 @@
-CURRENT STATUS: [COLOR springgreen]Good[/COLOR]
+CURRENT STATUS: [COLOR lime]Good[/COLOR]
 
-[COLOR red]Tutorial by Muad'Dib Current Version 0.0.1[/COLOR]
+[COLOR red]Made In The UK by Gandelf Current Version 0.0.1[/COLOR]
 
 [COLOR red]-------------------------------------------------------------------------------------------------------[/COLOR]
 
-[B][COLOR red]2017/10/28[/COLOR][/B]
-[COLOR snow]Initial Release[/COLOR]
+[B][COLOR red]20/1/2018[/COLOR][/B]
+[COLOR snow]Addon complete, need to start populating Genres and Years[/COLOR]
+
 
 
 
